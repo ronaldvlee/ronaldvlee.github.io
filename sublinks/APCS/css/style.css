@@ -1,0 +1,23 @@
+body {
+	font-family: Times New Roman;
+}
+pre{
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px 1em;
+}
+h1 {
+	font-size:35px;
+	font-weight: bold;
+}
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+	background:Transparent;
+}
