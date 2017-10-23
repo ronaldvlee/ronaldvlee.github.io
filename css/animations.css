@@ -1,0 +1,53 @@
+/*
+animation: name duration timing-function delay iteration-count direction;
+*/
+@keyframes slideRight {
+	0% {
+		transform: translateX(100%);
+		visibility: visible;
+	}
+	50% {
+		transform: translateX(-1%);
+	}
+	100% {
+		transform: translateX(0%);
+		visibility: visible;
+	}
+}
+.slideRight {
+	animation: slideRight 2s ease 0s 1 forwards;
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(-100%);
+		visibility: visible;
+	}
+	100% {
+		transform: translateX(0%);
+		visibility: visible;
+	}
+}
+.slideLeft {
+	animation: slideLeft 1.33s ease 2s 1 forwards;
+}
+
+/*@keyframes sborder-anim {
+	0% {
+		color: transparent;
+	}
+	100% {
+		color: #fff;
+	}
+}
+.caption span {
+	animation: sborder-anim 1s ease-out 2s 1 forwards;
+}
+
+@keyframes slideLeft {
+	0% {transform: translateX(-100%);}
+	100% {transform: translateX(0%);}
+}
+nav.navbar {
+	animation: navbar-anim 1.33s ease-out 3s 1 forwards;
+}*/
