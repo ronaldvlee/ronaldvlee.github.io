@@ -16,6 +16,10 @@ h1,h2,h3,h4,h5 {
 	text-align: center;
 }
 
+section:last-child {
+	padding-bottom: 5em;
+}
+
 /*nav*/
 nav.navbar {
 	border-radius: 0;
@@ -55,7 +59,7 @@ nav.navbar {
 	margin-left: 5em;
 }
 .nav-item:not(:first-child) {
-	margin-left: 1em;
+	border-left: 1px solid black;
 }
 
 /*Parallax*/
@@ -90,6 +94,8 @@ nav.navbar {
 }
 
 footer {
-	padding: 2em;
+	background-color: #6492a3;
+	padding: 10px;
 	text-align: center;
+	font-family: "Roboto",sans-serif;
 }
