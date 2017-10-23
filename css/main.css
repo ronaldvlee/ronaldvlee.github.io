@@ -1,3 +1,38 @@
+/*
+Palette
+#fff white
+#121619 raisin black
+#6492A3 desaturated cyan
+#98C1D9 pale cerulan
+#6969B3 light purple (toolbox)
+*/
+.white {
+	background-color: #fff;
+	color: #121619;
+}
+.black {
+	background-color: #121619;
+	color: #fff;
+}
+.cyan {
+	background-color: #6492A3;
+	color: #fff;
+}
+.cerulan {
+	background-color: #98C1D9;
+	color :#121619;
+}
+.purple {
+	background-color: #6969B3;
+	color: #fff;
+}
+
+.menu-icon {
+	display: inline-block;
+	fill:#000;
+	width: 1em;
+	height: 1em;
+}
 html,body {
 	width:100%;
 	max-width:100%;
@@ -16,7 +51,8 @@ h1,h2,h3,h4,h5 {
 	text-align: center;
 }
 
-section:last-child {
+section {
+	padding-top: 5em;
 	padding-bottom: 5em;
 }
 

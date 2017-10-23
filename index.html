@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Ronald Lee</title>
+	<title>Ronald Lee | Portfolio</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,46 +19,57 @@
 </head>
 
 <body>
-	<nav class="navbar slideLeft">
+	<nav class="navbar navbar-expand-lg slideLeft">
 		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#"><img src="img/logo.png" height=62.5 width=51.75/></a>
+			<a class="navbar-brand" href="#"><img src="img/logo.png" height=62.5 width=51.75/></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 50 50" class="menu-icon">
+					<path d="M0 9v2h50V9zm0 15v2h50v-2zm0 15v2h50v-2z"/>
+				</svg>
+			</button>
+
+			<div class ="collapse navbar-collapse" id = "navbarCollapse">
+				<ul class="nav">
+					<li class = "nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+					<li class = "nav-item"><a class="nav-link" href="#">SKILLS</a></li>
+					<li class = "nav-item"><a class="nav-link" href="#">RÉSUMÉ</a></li>
+				</ul>
 			</div>
-			<ul class="nav">
-				<li class = "nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-				<li class = "nav-item"><a class="nav-link" href="#">SKILLS</a></li>
-				<li class = "nav-item"><a class="nav-link" href="#">RÉSUMÉ</a></li>
-			</ul>
 		</div>
 	</nav>
 
 	<div id = "page-content">
-		<section>
+		<header>
 			<div class="parallax img1">
 				<div class="caption slideRight">
 					<span>RONALD LEE</span>
 				</div>
 			</div>
-		</section>
-		<section>
-			<div class="container">
+		</header>
+		<section class = "cerulan">
+			<div class = container>
 				<hr>
 				<h1>ABOUT</h1>
 				<hr>
 				<div class = "row">
-					<div class = "col-md-6">
+					<div class = "col-sm-6">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis fringilla est. In hac habitasse platea dictumst. Pellentesque at neque non velit tincidunt maximus sed ut neque. Morbi ornare vitae justo sed vulputate. Donec pharetra, augue sit amet accumsan tempor, lectus nisi consequat dui, at maximus leo urna nec leo. Mauris elementum tellus eu accumsan condimentum. Suspendisse non bibendum enim, quis scelerisque odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
 					</div>
-					<div class = "col-md-6 text-center">
-						<img src="https://via.placeholder.com/400x450">
+					<div class = "col-sm-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis fringilla est. In hac habitasse platea dictumst. Pellentesque at neque non velit tincidunt maximus sed ut neque. Morbi ornare vitae justo sed vulputate. Donec pharetra, augue sit amet accumsan tempor, lectus nisi consequat dui, at maximus leo urna nec leo. Mauris elementum tellus eu accumsan condimentum. Suspendisse non bibendum enim, quis scelerisque odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
 					</div>
 				</div>
+			</div>
+		</section>
+		<section class = "black">
+			<div class = container>
+				<h1>SKILLS</h1>
 			</div>
 		</section>
 	</div>
 
 	<footer>
-		&copy; by me 2017
+		&copy; copyright by me 2017
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
