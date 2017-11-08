@@ -97,6 +97,7 @@ nav.navbar {
 
 /*Parallax*/
 .parallax {
+    position: relative;
     height: 400px; 
     background-attachment: fixed;
     background-position: center;
