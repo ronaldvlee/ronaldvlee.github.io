@@ -1,81 +1,58 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Ronald Lee | Portfolio</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="shortcut icon" href="favicon.ico" />
+		<title>Ronald Lee</title>
 
-	<link href="fonts/stylesheet.css" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico" />
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/animations.css" rel="stylesheet">
-
-	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-
-<body>
-	<nav class="navbar navbar-expand-lg slideLeft">
-		<div class="container">
-			<a class="navbar-brand" href="#"><img src="img/logo.png" height=62.5 width=51.75/></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 50 50" class="menu-icon">
-					<path d="M0 9v2h50V9zm0 15v2h50v-2zm0 15v2h50v-2z"/>
-				</svg>
-			</button>
-
-			<div class ="collapse navbar-collapse" id = "navbarCollapse">
-				<ul class="nav">
-					<li class = "nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-					<li class = "nav-item"><a class="nav-link" href="#">SKILLS</a></li>
-					<li class = "nav-item"><a class="nav-link" href="#">RÉSUMÉ</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div id = "page-content">
+		<link href="fonts/stylesheet.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/anim.css" />
+		
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
 		<header>
-			<div class="parallax img1">
-				<div class="caption slideRight">
+			<nav>
+				<a href="index.html">
+					<img class="logo" src="imgs/logo.png" />
+				</a>
+				<ul>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">RESUME</a></li>
+				</ul>
+			</nav>
+			<div id="background">
+				<div class="slideInFromRight" id="caption">
 					<span>RONALD LEE</span>
 				</div>
 			</div>
 		</header>
-		<section class = "cerulan">
-			<div class = container>
-				<hr>
-				<h1>ABOUT</h1>
-				<hr>
-				<div class = "row">
-					<div class = "col-sm-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis fringilla est. In hac habitasse platea dictumst. Pellentesque at neque non velit tincidunt maximus sed ut neque. Morbi ornare vitae justo sed vulputate. Donec pharetra, augue sit amet accumsan tempor, lectus nisi consequat dui, at maximus leo urna nec leo. Mauris elementum tellus eu accumsan condimentum. Suspendisse non bibendum enim, quis scelerisque odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-					</div>
-					<div class = "col-sm-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis fringilla est. In hac habitasse platea dictumst. Pellentesque at neque non velit tincidunt maximus sed ut neque. Morbi ornare vitae justo sed vulputate. Donec pharetra, augue sit amet accumsan tempor, lectus nisi consequat dui, at maximus leo urna nec leo. Mauris elementum tellus eu accumsan condimentum. Suspendisse non bibendum enim, quis scelerisque odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-					</div>
-				</div>
+		<section id="about">
+			<div class="container">
+				<img id="me" src="imgs/me.jpg" width="200" height="200" />
+				<h1>about</h1>
+				
+				<p>> ronald lee</p>
+				<p>> currently studying at mount san antonio college as a computer science major</p>
+				<p>> from the 626 area</p>
+				<br>
+				<p>> likes to write software</p>
+				<p>> and draw art</p>
 			</div>
 		</section>
-		<section class = "black">
-			<div class = container>
-				<h1>SKILLS</h1>
+		<section id="contact">
+			<div class="container">
+				<h1>contact</h1>
+
+				<p>email: <a href="mailto:ronaldvlee9@gmail.com">ronaldvlee9@gmail.com</a></p>
+				<p></p>
+				<p></p>
 			</div>
 		</section>
-	</div>
-
-	<footer>
-		&copy; copyright by me 2017
-	</footer>
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
-</body>
-
+	</body>
 </html>
