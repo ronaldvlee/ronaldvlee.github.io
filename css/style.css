@@ -31,6 +31,11 @@ section#about {
 	color:#f0ead6;
 }
 
+section#contact {
+	background-color:#ffffff;
+	color:#000;
+}
+
 .container {
 	margin-left: 21%;
 	margin-right: 21%;
