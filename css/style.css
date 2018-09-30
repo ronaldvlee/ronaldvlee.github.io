@@ -150,6 +150,9 @@ header div#background {
 /*response*/
 
 @media screen and (max-width: 500px) {
+	.banner {
+		display: none;
+	}
 	nav {
 		padding: 0 0;
 	}

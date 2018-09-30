@@ -24,7 +24,12 @@
 	}
 }
 
-.slideInFromRight {
+.anim-invert:hover {
+	transition: filter 2s; 
+	filter: invert(0.9);
+}
+
+.anim-slideInFromRight {
 	-webkit-animation: slideInFromRight 3s ease 0s 1 forwards;
 	        animation: slideInFromRight 3s ease 0s 1 forwards;
 }
