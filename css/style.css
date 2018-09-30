@@ -131,6 +131,7 @@ header div#background {
 }
 
 #me {
+	display: block;
 	float:right;
 	height: 200px;
 	width: auto;
@@ -160,10 +161,17 @@ header div#background {
 		margin: 0 0 !important;
 		width:100%;
 	}
+	section {
+		padding: 80px 5%;
+	}
+	h1 {
+		text-align: center;
+	}
 	.row {
 		display:block;
 	}
 	#me {
 		float: none;
+		margin: 0 auto;
 	}
 }
