@@ -10,40 +10,52 @@ html, body{
 	height:100%;
 	overflow-x: hidden;
 
-	font-family: "HeroLight", sans-serif;
+	font-family: "HeroRegular", sans-serif;
 	background-color: #191919;
 }
 
+.banner {
+    background: #cc0000;
+    color: #ffffff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+h1 {
+	font-family: "HeroLight", sans-serif;
+}
 p {
-	font-family: "HeroRegular";
 	font-size: 20px;
 }
 
 section {
-	padding-top: 5em;
-	padding-bottom: 5em;
+	padding: 80px 20% 80px 20%;
 	background-color: #000;
 	color:#fff;
 }
 
 section#about {
 	background-color: #6B97A7;
-	color:#f0ead6;
+	color:#fafafa;
 }
 
 section#contact {
-	background-color:#ffffff;
+	background-color:#fafafa;
 	color:#000;
 }
 
-.container {
-	margin-left: 21%;
-	margin-right: 21%;
+.row {
+	display:flex;
+}
+
+.col2{
+	flex: 50%;
 }
 
 /* nav */
 
 nav {
+	font-family: "HeroLight", sans-serif;
 	position:absolute;
 	padding-left: 50px;
 	padding-top: 50px;
@@ -57,9 +69,12 @@ nav {
 	float: left;
 }
 
+ul {
+	list-style-type: none;
+}
+
 nav ul {
 	float: left;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #6492a3;
@@ -104,6 +119,7 @@ header div#background {
 }
 
 #caption span {
+	font-family: "HeroLight", sans-serif;
 	background-color: #6B97A7;
 	color:white;
 	/*opacity: 0.95;*/
@@ -115,5 +131,35 @@ header div#background {
 
 #me {
 	float:right;
+	height: 200px;
+	width: auto;
 	border-radius: 100%;
+}
+
+.contactlist {
+	padding-top: 20px;
+	font-size:20px;
+	line-height: 200%;
+}
+
+.contactlist i {
+	margin-right: 20px;
+}
+
+/*response*/
+
+@media screen and (max-width: 500px) {
+	nav {
+		padding: 0 0 0 0;
+	}
+	nav li {
+		margin: 0 0 0 0 !important;
+		width:100%;
+	}
+	.row {
+		display:block;
+	}
+	#me {
+		float: none;
+	}
 }

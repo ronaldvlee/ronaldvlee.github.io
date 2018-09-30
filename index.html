@@ -6,15 +6,17 @@
 		<title>Ronald Lee</title>
 
 		<link rel="shortcut icon" href="favicon.ico" />
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link href="fonts/stylesheet.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/anim.css" />
-		
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
+		<div class="banner"><p>Hi there! This website is work in progess, hopefully done by the end of 2018.</p></div>
 		<header>
 			<nav>
 				<a href="index.html">
@@ -22,8 +24,8 @@
 				</a>
 				<ul>
 					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#contact">SKILLS</a></li>
 					<li><a href="#">CONTACT</a></li>
-					<li><a href="#">RESUME</a></li>
 				</ul>
 			</nav>
 			<div id="background">
@@ -33,30 +35,44 @@
 			</div>
 		</header>
 		<section id="about">
-			<div class="container">
-				<img id="me" src="imgs/me.jpg" width="200" height="200" />
-				<h1>about</h1>
-				
-				<p>Hi! My name is Ronald Lee.</p>
-				<p>I am currently studying in Mount San Antonio College for my AA degree.</p>
-				<p>I'm planning to transfer to a different school for a BS in Computer Science.</p> 
-				<p>My hobbies range from drawing art and writing software.</p>
+			<img id="me" src="imgs/me.jpg"/>
+			<h1>about</h1> 
+			
+			<p>Hello. I'm an undergraduate in Los Angeles, California.</p>
+			<p>I am currently studying in Mount San Antonio College for an AA degree.</p>
+			<p>I'm planning to transfer to a university for a BS in Computer Science.</p> 
+			<p>I love designing websites.</p>
+		</section>
+		<section id="skills">
+			<h1>skills</h1>
+
+			<div class="row">
+				<div class="col2">
+					<p>HTML/CSS/JS</p>
+				</div>
+				<div class="col2">
+					<p>Java</p>
+				</div>
+			</div>				
+
+			<div class="row">
+				<div class="col2">
+					<p>C#</p>
+				</div>
+				<div class="col2">
+					<p>SQL</p>
+				</div>
 			</div>
 		</section>
 		<section id="contact">
-			<div class="container">
-				<h1>contact</h1>
+			<h1>contact</h1>
 
-				<p><a href="mailto:ronaldvlee9@gmail.com"><img src="imgs/e-mail.png" width=50 height=50/></a> ronaldvlee9@gmail.com</p>
-				<p><a href="https://github.com/ronaldvlee"><img src="imgs/GitHub-Mark-64px.png" width=50 height=50/></a> ronaldvlee</p>
-				<p><a><img src="imgs/In-Black-54px-R.png" width=50 height="auto"/></a> ronaldvlee</p>
-				<p></p>
-			</div>
+			<p>You can contact me here. I will respond to all emails, but please be patient if it takes a while.</p>
+
+			<ul class="contactlist">
+				<li><i class = "fas fa-envelope-square fa-lg"></i>ronaldvlee9@gmail.com</li>
+				<li><i class = "fab fa-github-square fa-lg"></i>ronaldvlee</li>
+			</ul>
 		</section>
-		<section></section>
-		<section></section>
-		<section></section>
-		<section></section>
-		<footer>im the foot</footer>
 	</body>
 </html>
