@@ -28,28 +28,29 @@ p {
 	font-size: 20px;
 }
 
-section {
-	padding: 80px 20% 80px 20%;
-	background-color: #000;
-	color:#fff;
-}
-
-section#about {
-	background-color: #6B97A7;
-	color:#fafafa;
-}
-
-section#contact {
-	background-color:#fafafa;
-	color:#000;
-}
-
 .row {
 	display:flex;
 }
 
 .col2{
 	flex: 50%;
+}
+
+/* sections */
+section {
+	padding: 80px 20%;
+	background-color: #000;
+	color:#fff;
+}
+
+#about {
+	background-color: #6B97A7;
+	color:#fafafa;
+}
+
+#contact {
+	background-color:#fafafa;
+	color:#000;
 }
 
 /* nav */
@@ -150,10 +151,10 @@ header div#background {
 
 @media screen and (max-width: 500px) {
 	nav {
-		padding: 0 0 0 0;
+		padding: 0 0;
 	}
 	nav li {
-		margin: 0 0 0 0 !important;
+		margin: 0 0 !important;
 		width:100%;
 	}
 	.row {
