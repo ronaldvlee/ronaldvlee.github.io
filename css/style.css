@@ -27,14 +27,13 @@ p {
 
 .col2{
 	flex: 50%;
-	border-bottom: 1px solid white;
-	margin:10px;
+	margin:40px;
 }
 
 /* sections */
 section {
 	padding: 80px 20%;
-	background-color: #000;
+	background-color: #181818;
 	color:#fff;
 }
 
@@ -46,6 +45,13 @@ section {
 #contact {
 	background-color:#fafafa;
 	color:#000;
+}
+
+.skillslogo {
+	display:block;
+	width:auto;
+	height:200px;
+	margin:0 auto;
 }
 
 /* nav */
